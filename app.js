@@ -98,5 +98,5 @@ function writeDependencyTreesToFile() {
   fs.writeFileSync('dependencyTrees.json', JSON.stringify(dependencyTrees, null, 2));
 }
 
-// Execute write the file
+// Execute write to file
 writeDependencyTreesToFile();
